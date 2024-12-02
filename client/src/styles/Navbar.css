@@ -1,0 +1,52 @@
+/* Navbar container */
+.navbar {
+  background-color: #000; /* Black background for both lines */
+  color: white;
+}
+
+/* First row (logo and brand name) */
+.navbar-top {
+  display: flex;
+  flex-direction: row; /* Align logo and brand name side by side */
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0; /* Padding to space out the content */
+  background-color: #000; /* Same background color for the top row */
+}
+
+.navbar .logo img {
+  height: 80px; /* Make logo bigger */
+  margin-right: 15px;
+}
+
+.navbar .brand-name {
+  font-size: 36px; /* Larger text for the brand name */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Second row (navigation links) */
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0; /* Padding to space out the links */
+  margin: 0;
+  background-color: #000; /* Same background color for the second row */
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #FF4081; /* Pink hover effect */
+}
